@@ -13,7 +13,7 @@ hang_last=pygame.image.load("hangman #6.png")
 blank=pygame.image.load("blank.png")
 
 #Random Words
-
+fatal=0
 sentences=["fat","nikal"]#it shoudl be less than 8
 choosed=random.choice(sentences).lower()
 lenght_of_words=len(choosed)
